@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Methodist College Chatbot</title>
+    <link rel="stylesheet" href="help.css" type="text/css">
+    <style>
+        .container{
+            display:flex;
+            align-items: center;
+        }
+        .image {
+            flex: 0 0 auto;
+            margin-right: 10px;
+        }
+        .bottomright{
+            display:flex;
+        }
+    </style>
+</head>
+<body>
+
+
+
+<div class="container">
+    <img class="image" src="scohllogo.png" style="width:10%;height:10%">
+    <h1>Methodist College Chatbot</h1>
+</div>
+
+
+<div class="bottomright">
+<img src="arrow.png" alt="bot: " style="width: 27%;height: 27%;">
+</div>
+
+<script src="https://sf-cdn.coze.com/obj/unpkg-va/flow-platform/chat-app-sdk/0.1.0-beta.2/libs/oversea/index.js"></script>
+<script>
+    new CozeWebSDK.WebChatClient({
+      config: {
+        bot_id: '7369110286068039696',
+      },
+      componentProps: {
+        title: 'Coze',
+      },
+    });
+</script>
+
+</body>
+
+
+</html>
