@@ -56,3 +56,10 @@ footer{
     right: 0%;
     transform: translate(68%, -15%);
   }
+
+  .bottomleft{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    transform: translate(2vw, 5vw);
+  }
